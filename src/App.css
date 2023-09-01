@@ -1,0 +1,70 @@
+.color-8080{
+    color: #808080 ;
+}
+.bg-fcb941{
+    background-color: #fcb941 !important;
+}
+.hover\:bg-indigo-600:hover{
+    background-color: #fcb941 !important;
+}
+.ulist li{
+    margin-left: 25px;
+    font-size: 20px;
+}
+.text-4xl{
+    font-size: 2.25rem !important;
+    line-height: 2.5rem !important; 
+}
+.css-h4y409-MuiList-root li{
+    padding-left: 5px !important;
+}
+.css-10hburv-MuiTypography-root{
+    font-size: 20px !important;
+}
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root{
+    font-size: 2.5rem !important;
+}
+.MuiSvgIcon-root{
+    font-size: 2rem !important;
+}
+.css-1y942vo-MuiButtonBase-root-MuiButton-root{
+    font-size: 17px !important;
+    padding-left: 15px !important;
+}
+.css-i4bv87-MuiSvgIcon-root{
+    font-size: 25px !important;
+    margin-top: -3px !important;
+    margin-left: -3px !important;
+}
+.css-hip9hq-MuiPaper-root-MuiAppBar-root{
+    background-color: #333 !important;
+}
+.mt-minus{
+    margin-top: -7px !important;
+}
+.css-sghohy-MuiButtonBase-root-MuiButton-root{
+    background-color: #fcb941 !important;
+}
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root{
+    color: #fcb941 !important;
+    border: 1px solid #fcb941 !important;
+}
+.css-1rwt2y5-MuiButtonBase-root-MuiButton-root:hover{
+    background-color: rgba(211, 193, 36, 0.06) !important;
+    border: 1px solid #fcb941 !important;
+}
+.cstm-fontSize{
+    margin: 0 !important;
+}
+.cstm-fontSize span{
+    font-size: 14px !important;
+}
+.cstm-height{
+    height: 12rem !important;
+}
+.cstm-height img{
+    height: 100% !important;
+}
+.slick-list{
+    height: 450px !important;
+}
