@@ -15,7 +15,6 @@ import ProductDetail from './Components/ProductDetail';
 import CategoryProduct from './Components/CategoryProduct';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Footer from './Components/Footer';
 
 
 function App() {
@@ -30,7 +29,7 @@ function App() {
           <Route exact path='/cart/:cartID'>
             <Cart />
           </Route>
-          <Route exact path='/wishlist:wishlistID'>
+          <Route exact path='/wishlist/:wishlistID'>
             <Wishlist />
           </Route>
           <Route exact path='/productDetail/:productID'>
@@ -43,7 +42,6 @@ function App() {
             <CategoryProduct />
           </Route>
         </Switch>
-        <Footer />
       </Router>
     </>
   );

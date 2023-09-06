@@ -69,7 +69,7 @@ const Product = () => {
                             <Button variant="contained">Add to Cart</Button>
                           </Link>
                           <Button variant="outlined">Buy now</Button>
-                        </Stack> 5
+                        </Stack>
                     </div>
                   </div>
                 </>

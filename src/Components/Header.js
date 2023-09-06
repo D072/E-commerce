@@ -62,7 +62,6 @@ export default function PrimarySearchAppBar() {
       axios.get('https://dummyjson.com/carts/1')
           .then(function (response) {
             setCartProduct(response.data.products)
-            console.log(response.data.products);
           })
           .catch(function (error) {
               console.log(error);
@@ -105,14 +104,14 @@ export default function PrimarySearchAppBar() {
           </Search>
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-            <Link exact to="/wishlist">
+            <Link exact to="/wishlist/1">
               <IconButton size="large" color="inherit">
-                <Badge badgeContent={4} color="error">
+                <Badge badgeContent={carItemno} color="error">
                   <FavoriteBorderIcon />
                 </Badge>
               </IconButton>
             </Link>
-            <Link exact to="/cart">
+            <Link exact to="/cart/1">
               <IconButton
                 size="large"
                 color="inherit"

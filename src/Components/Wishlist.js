@@ -31,7 +31,7 @@ const Wishlist = () => {
                         <Link exact to={'/productDetail/' + el.id}>
                             <div class="py-8 flex flex-wrap md:flex-nowrap">
                                 <div class="md:w-64 md:mb-0 mb-6 flex-shrink-0 flex flex-col cstm-height">
-                                    <img src={el.thumbnail} alt='img' className='pe-3 pb-3'></img>
+                                    {/* <img src={el.thumbnail} alt='img' className='pe-3 pb-3'></img> */}
                                 </div>
                                 <div class="md:flex-grow">
                                     <h2 class="text-2xl font-medium text-gray-900 title-font mb-2">{el.title}</h2>
